@@ -8,5 +8,5 @@ it('should return stored logs', () => {
 it('should save stored logs', () => {
   const logger = createLogger('user login');
   logger.log('login success');
-  expect(logger.getLogs()).toEqual(['log - user login - login success ']);
+  expect(logger.getLogs()).toEqual(['log - user login - login success']);
 });
