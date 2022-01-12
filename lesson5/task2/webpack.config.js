@@ -6,6 +6,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: path.basename(__dirname, 'bulid'),
+    path: path.join(__dirname, 'bulid'),
   },
+  watch: true,
 };
