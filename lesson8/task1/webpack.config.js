@@ -36,9 +36,6 @@ module.exports = (env, argv) => {
       new HtmlWebpackPlugin({
         template: './src/index.html',
       }),
-      new MiniCssExtractPlugin({
-        filenam: '[name].css',
-      }),
     ],
     devServer: {
       port: 9000,
