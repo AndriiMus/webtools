@@ -37,7 +37,7 @@ module.exports = (env, argv) => {
         template: './src/index.html',
       }),
     ],
-    devSrver: {
+    devServer: {
       port: 9000,
       hot: true,
     },
