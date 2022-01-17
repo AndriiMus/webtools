@@ -42,7 +42,7 @@ module.exports = (env, argv) => {
         },
       ],
     },
-    plugin: [
+    plugins: [
       new webpack.ProgressPlugin(),
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
